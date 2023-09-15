@@ -10,8 +10,9 @@
     body{
       background-color: rgba(128, 114, 202, 0.465);
     }
-    script#scp{
-      margin-bottom: 20px;
+    #titulo{
+      margin-top: 10px;
+      margin-left: 20px;
     }
   </style> 
  <script id="scp"> 
@@ -24,9 +25,6 @@
 </script> 
 </head>
 <body>
-  <script>
-    
-  </script>
   <header>
     <div id="titulo"></div>
     <img src="./img/eurotour-logo-cor.png" alt="Logotipo Euro Tour">
@@ -54,6 +52,8 @@
       <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
     </ul>
   </footer>
-  
+  <script id="scp"> 
+    res.innerHTML = `Seja bem vindo(a) ${t}!`      
+  </script>   
 </body>
 </html>
