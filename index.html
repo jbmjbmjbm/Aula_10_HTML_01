@@ -10,10 +10,25 @@
     body{
       background-color: rgba(128, 114, 202, 0.465);
     }
-  </style>  
+    script#scp{
+      margin-bottom: 20px;
+    }
+  </style> 
+ <script id="scp"> 
+  var nome = window.prompt('Por favor digite seu nome:');
+  window.alert('Seja bem vindo(a) ' + nome +'!');
+  document.write(`Olá <strong>${nome}</strong>, seja bem vindo(a) a Euro Tour`);
+  //document.write(`Olá <strong>${t}</strong>, seja bem vindo(a) a Euro Tour`);
+  var t = window.document.getElementById('titulo')
+  res.innerHTML = `Seja bem vindo(a) ${t}!`      
+</script> 
 </head>
 <body>
+  <script>
+    
+  </script>
   <header>
+    <div id="titulo"></div>
     <img src="./img/eurotour-logo-cor.png" alt="Logotipo Euro Tour">
     <nav>
       <ul>
@@ -39,10 +54,6 @@
       <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
     </ul>
   </footer>
-  <script> 
-      var nome = window.prompt('Por favor digite seu nome:');
-      window.alert('Seja bem vindo(a) ' + nome +'!');
-      document.write(`Olá <strong>${nome}</strong>, seja bem vindo(a) a Euro Tour`);
-  </script>
+  
 </body>
 </html>
