@@ -1,9 +1,13 @@
+body{
+    background: rgb(247, 200, 125);
+}
 h1{
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     color: rgb(88, 109, 227);
     text-shadow: 8px 8px 8px;
     background: rgb(255, 166, 0) ;
+    
 }
 h2{
     font-family:'Times New Roman', Times, serif;
@@ -11,9 +15,11 @@ h2{
     color: rgb(88, 109, 227);
     text-shadow: 8px 8px 8px;
     background:rgb(255, 166, 0) ;
+    
 }
 p{
     background: rgb(179, 101, 101);
+    
 }
 ul, li{
     text-decoration: none;
@@ -23,6 +29,7 @@ img{
     box-shadow: 3px 5px 8px;
     
     margin-left:  500px;
+    display:flex;
 }
 a{
     text-decoration: none;
