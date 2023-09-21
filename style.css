@@ -1,5 +1,6 @@
 body{
     background: rgb(247, 200, 125);
+    border: 1px solid red;
 }
 h1{
     font-family:'Times New Roman', Times, serif;
@@ -7,6 +8,7 @@ h1{
     color: rgb(88, 109, 227);
     text-shadow: 8px 8px 8px;
     background: rgb(255, 166, 0) ;
+
     
 }
 h2{
