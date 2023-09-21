@@ -27,11 +27,14 @@ ul, li{
     text-decoration: none;
     background: rgb(143, 148, 193);
 }
-img{
-    box-shadow: 3px 5px 8px;
-    
-    margin-left:  500px;
+div#logo{
+    box-shadow: 0px 8px 15px;    
+    margin-left:  1100px;
     display:flex;
+    justify-content: flex-end;
+}
+div#logofooter{
+    box-shadow: 8px 8px 8px;
 }
 a{
     text-decoration: none;
